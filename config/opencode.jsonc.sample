@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": ["~/.config/opencode/AGENTS.md"],
+  // Sample only — never auto-applied by install.sh. Merge into your own
+  // opencode.jsonc. Rules: last matching rule wins; default policy allows
+  // all, so only catastrophic ops are denied here.
+  "permissions": [
+    { "action": "shell", "resource": "sudo *", "effect": "deny" },
+    { "action": "shell", "resource": "rm -rf *", "effect": "deny" },
+    { "action": "shell", "resource": "rm -fr *", "effect": "deny" },
+    { "action": "shell", "resource": "git push --force *", "effect": "deny" },
+    { "action": "shell", "resource": "git push -f *", "effect": "deny" },
+    { "action": "read", "resource": "*/id_rsa*", "effect": "ask" },
+    { "action": "read", "resource": "~/.ssh/*", "effect": "ask" }
+  ]
+}
