@@ -1,10 +1,12 @@
 ⚡ protocol: TRAIL-ROUTE v1.0 — template survives every rewrite
-Checkpoint at: 2026-11-01 13:30
+Checkpoint at: 2026-11-01 13:45
 ## Active
-| #1 | package TRAIL-ROUTE as public git repo | WAITING (acceptance) | push: `cd ~/trail-route && git remote add origin git@github.com:hoshiyomiX/stellar-trail-opencode.git && git push -u origin main` (needs user auth) | 2026-11-01 |
+(no open rows — Task 1 sealed via S1–S4 on owner's push order)
+## Sealed
+| #1 | package TRAIL-ROUTE as public git repo | DONE — SEALED | pushed hoshiyomiX/stellar-trail-opencode@484c939 (remote manifest verified) | 2026-11-01 |
 ## Pending decisions
-- remote name/visibility: hoshiyomiX/stellar-trail-opencode (decided by owner 2026-11-01)
+- revoke pasted OAuth token (admin-scope, chat-exposed) — owner action
 ## Recent artifacts
-- ~/trail-route @222bc16 (README, LICENSE, CHANGELOG, .gitignore, integrity.sha256, install.sh, config/{AGENTS,protocol-references}.md, opencode.jsonc.sample, docs/HARNESS-MAPPING.md)
-## Next steps
-- user push + repo URL badging; optional: adapt Skill-card style metadata if listing on skills.sh
+- public repo hoshiyomiX/stellar-trail-opencode (README/LICENSE/CHANGELOG/integrity.sha256/install.sh/config/docs)
+## Next steps (open work only)
+- (sealed: v1.0.0 shipped; handoff 2026-11-01-task1-sealed)
