@@ -15,7 +15,7 @@ Two runtime files for `~/.config/opencode/`:
 ## Install (Termux)
 
 ```bash
-git clone https://github.com/hoshiyomiX/trail-route ~/trail-route
+git clone https://github.com/hoshiyomiX/stellar-trail-opencode ~/trail-route
 cd ~/trail-route && sha256sum -c integrity.sha256   # expect all OK
 bash install.sh
 ```
